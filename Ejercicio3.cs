@@ -9,7 +9,9 @@ class Ejericio2 {
         int num2 = int.Parse(Console.ReadLine());
 
         int suma = num1 + num2;
+        int resta = num1 - num2;
 
         Console.WriteLine("La suma es: " + suma);
+        Console.WriteLine("La resta es: " + resta);
   }
 }
